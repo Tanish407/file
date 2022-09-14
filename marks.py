@@ -1,0 +1,12 @@
+print("Enter marks obtained in 5 subjects :")
+ENGLISH  = int(input())
+MATHS  = int(input())
+HINDI  = int(input())
+SCIENCE  = int(input())
+HISTORY  = int(input())
+
+sum=int(ENGLISH) + int(HINDI) +int(MATHS) +int(SCIENCE) + int(HISTORY)
+print("the sum is :",sum)
+
+per=float(sum)*(500/500)
+print("Percentage is:",sum)
